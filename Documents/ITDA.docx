@@ -1,0 +1,431 @@
+A Project Report on
+
+INDIAN TRADE DATA ANALYSIS
+
+Submitted in partial fulfillment of requirement
+for the award of the degree
+
+MASTER OF COMPUTER APPLICATIONS
+Of
+PES University
+By
+Dipali Goyal (PES1PG19CA009)
+Monali Pandey (PES1PG19CA017)
+Sayyed Nargis Fatima S.H. (PES1PG19CA033)
+
+ 
+PES UNIVERSITY
+100 Ft Ring Road, B.S.K 3rd Stage, Bangalore-85
+
+2021
+
+
+PES UNIVERSITY
+Department of Computer Applications
+100 Ft Ring Road, BSK 3rd Stage
+Bangalore 85
+
+2021
+
+ 
+
+C E R T I F I C A T E
+
+This is to certify that the project entitled INDIAN TRADE DATA ANALYSIS is a bonafide work carried out by Dipali Goyal (PES1PG19CA009), Monali Pandey (PES1PG19CA017) and Sayyed Nargis Fatima S.H. (PES1PG19CA033) submitted in partial fulfillment of the requirement of fourth semester course work of MCA during the academic session Jan-May 2021. 
+
+
+
+
+Project Guide                                       			Chairperson
+Ms. Archana A                                                    	Dr. Veena S
+Assistant Professor                                          
+
+DECLARATION
+
+We, Dipali Goyal (PES1PG19CA009), Monali Pandey (PES1PG19CA017) and Sayyed Nargis Fatima S.H. (PES1PG19CA033), thereby declare that the project entitled, INDIAN TRADE DATA ANALYSIS, is an original work done by us under the guidance of Ms. Archana A, Assistant Professor, Department of Computer Application, and is being submitted in partial fulfilment of the requirements for completion of 4th Semester in the Program of Study MCA. All corrections/suggestions indicated for internal assessment have been incorporated in the report. 
+
+PLACE: Bangalore
+DATE: 28-04-2021
+
+
+NAME AND SIGNATURE OF THE CANDIDATE
+
+Dipali Goyal (PES1PG19CA009)
+
+Monali Pandey (PES1PG19CA017) 
+
+Sayyed Nargis Fatima S.H. (PES1PG19CA033)
+
+
+
+ 
+ACKNOWLEDGEMENT
+
+We would like to take the opportunity to thank all the people who have supported us to do this project.
+We would like to extend our gratitude to respected Vice Chancellor Dr. Suryaprasad J, PES University and respected Chairperson Dr. Veena S for allowing us to do this project with the facilities available.
+We sincerely thank our guide, Ms. Archana A, Assistant Processor, Department of Computer Applications for providing us the right guidance and advice at the crucial junctures and showing us the right way.
+We would also like to extend our gratitude to our parents and all our friends who encouraged us in doing this project.
+
+
+
+
+
+
+
+
+Dipali Goyal (PES1PG19CA009) 
+ Monali Pandey (PES1PG19CA017)  
+ Sayyed Nargis Fatima S.H. (PES1PG19CA033)
+ 
+ABSTRACT
+
+Trade is an economic concept which involves import and export of the commodities, or exchanging goods and services between the needy people. 
+
+In order to balance the economy with feasible amount of import and export trade, “Indian Trade Data Analysis” is required to determine which area of production needs more attention for exports and which product needs to be encouraged for production to decrease the amount of imports. 
+
+The application includes dashboard for Data Analysis and Visualization of the trade data.
+
+ 
+CONTENTS
+Page No.
+1.	    INTRODUCTION									07
+1.1.	PROJECT DESCRIPTION								07
+1.2.	PROBLEM STATEMENT  								08
+1.3.	PURPOSE										08
+1.4.	SCOPE										08
+2.	    LITERATURE SURVEY								09
+2.1.	BACKGROUND STUDY								09
+2.2.	ABOUT TOOLS AND TECHNOLOGIES						10
+3.	    HARDWARE AND SOFTWARE REQUIREMENTS					11
+3.1.	HARDWARE REQUIREMENTS							11
+3.2.	SOFTWARE REQUIREMENTS							11
+4.	    SOFTWARE REQUIREMENTS SPECIFICATION					12
+4.1.	FUNCTIONAL REQUIREMENTS							12
+4.2.	NON-FUNCTIONAL REQUIREMENTS						12
+5.	    SYSTEM DESIGN								           13
+5.1.	FLOWCHART									      13-14
+6.	    DETAILED DESIGN									 15
+6.1.	METHODOLOGY									 15
+6.2.	HYPOTHESIS TESTING							       15-16
+7.	    IMPLEMENTATION									 17
+7.1.	SAMPLE SOURCE CODE								 17
+7.2.	SCREENSHOTS								       18-21
+8.	    SOFTWARE TESTING								 22
+8.1.	MANUAL TEST CASES								 22
+9.	    CONCLUSION										 23
+10.	     FUTURE ENHANCEMENTS								 24
+
+Appendix A : BIBLIOGRAPHY								 25 
+
+1.	INTRODUCTION
+
+1.1.	PROJECT DESCRIPTION	
+Trade is an economic concept which involves buying and selling of the commodities, or exchanging goods and services between needy people. Trade is vital in an exceedingly way that it increases competition and reduces overall world wise cost of a product. India is simply second largest market place (after China) as regards the human resource. Hence many foreign countries exploit this fact, especially china, to sell their products. Hence our import trade matters lots from economic point of view. On the opposite hand, we being second largest population, also produce an enormous range of products, all due to diversity existing in India, while in north India, there’s one huge production of virtually all every type of grains and also fruits; in south India, there exists a production of all kinds of spices; in East India, there’s one large amount of tea-production. All of often this is just a piece of what is exported to all other regions. So, to balance the economy with feasible trade quantity, it’s one need to research which area of production needs more attention for exports and which product needs to be encouraged for production to decrease the import. So, the Data Analysis part points at this area of the mini project. Import and Export both are very dynamic in nature since each year it evolves in what needs as an import and what needs to produce in order to export. This project includes dashboard for Data Analysis and Visualization of the trade data.
+•	HARMONIZED SYSTEM
+The Harmonized System is a world nomenclature for the classification of products. It allows countries to classify traded goods for customs purposes on a typical basis. On the worldwide level, a six-digit code system may be a Harmonized System (HS) for classification of goods.
+
+•	ASEAN COUNTRIES
+The ASEAN is consists of Malaysia, Thailand, Cambodia, Singapore, Lao PDR, Indonesia, Philippines, Vietnam, Myanmar and Brunei. India’s target on a strengthened and multi-faceted relationship with ASEAN is an outcome of the numerous changes within the world’s political and economic scenario since the first 1990s. Trade and investment relations between India and ASEAN are steadily growing, with India as fourth largest ASEAN. India's 
+
+Trade with ASEAN stands at US$ 81.33 billion, which is approximately 10.6% of India's overall trade. India is 11.28 percent of our total export figures for exports to ASEAN.
+
+1.2.	PROBLEM STATEMENT  
+Import and export of products are very dynamic in nature since per annum it evolves in what has to be needed as an import and what must be produced so as to export. An analysis report is required which helps in analyzing the trade business.
+1.3.	PURPOSE
+To analyze which area of production needs more attention for exports and reduce imports with relevancy ASEAN countries.
+1.4.	SCOPE
+ The project intend towards generating analysis on Indian trade.
+
+
+
+
+				
+ 
+
+2.	LITERATURE SURVEY
+
+2.1.	BACKGROUND STUDY
+
+[1] “INDIA-ASEAN FTA: ANALYSIS OF COOPERATION IN TRANSPORTATION SECTOR”
+
+RAJAT TYAGI (2017): It aims to specifically specialize in the cooperation within the transportation sector within the context of India-ASEAN FTA. The paper begins with Indian-ASEAN trade relations, which has the formation of the Trade Agreement between both followed by an insight into the present state of the transportation sector in all the nations involved.
+
+[2] “INDIA-ASEAN ECONOMIC RELATIONS: EXAMINING FUTURE POSSIBILITIES”
+
+PREETY BHOGAL (2018):  It highlights the assorted challenges of the connection within the areas of physical, institutional and people-to-people connectivity, which have restricted the combination of India within the regional value chain. The brief stresses the crucial role played by enhanced India-ASEAN connectivity for regional growth and prosperity.
+
+[3] “ANALYSIS OF TRADE PATTERN BETWEEN INDIA AND ASEAN”
+
+ROHIT SINGH (2018): ASEAN has displayed great dynamism. The full bilateral trade between India and ASEAN nations grew from USD 52.6 billion in 2010 to USD 64.6 billion in 2016. India’s exports to ASEAN witnessed a drop from USD 37.89 billion in 2013 to USD 26.38 billion in 2016. Contrary, India’s imports declined from USD 42.31 billion to USD 38.22 billion during 2016.
+
+
+
+
+
+
+
+
+2.2.	ABOUT TOOLS AND TECHNOLOGIES			
+
+	Plotly (version 4.14.3) an open-source, interactive data visualization library for Python (version 3).
+o	Interactive graph of Import/Export/Trade Deficit is displayed through Plotly.
+ 
+	Automation testing using Chrome Driver (version 89.0.4389.23) and Selenium (version 3.141.59).
+o	Data from the authorized source is fetched using Selenium.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+3.	 HARDWARE AND SOFTWARE REQUIREMENTS
+
+3.1.	HARDWARE REQUIREMENTS
+
+3.1.	HARDWARE REQUIREMENTS 1
+Hardware	Specification
+Processor	Core i3 Processor
+Hard Disk	500gb or more
+RAM	4gb
+Keyboard & Mouse	Basic laptop’s keyboard and mouse.
+    
+
+3.2.	SOFTWARE REQUIREMENTS
+
+3.2.	SOFTWARE REQUIREMENTS 1
+Purpose 	Tools & Technology
+Frontend	Plotly (version 4.14.3), HTML5, CSS3, Bootstrap4.3
+Operating System	Windows10
+Data Source	HS Code from GOI Dept. Of Commerce
+Platform	Anaconda v3 Navigator (Jupyter Notebook (version 6.2.0))
+
+ 
+	
+4.	 SOFTWARE REQUIREMENTS SPECIFICATION
+					
+4.1.	FUNCTIONAL REQUIREMENTS
+	
+	ANALYSIS NAME: Indian Trade Data Analysis (import/export data).
+
+	ANALYSIS TYPE: Descriptive Analysis.
+Descriptive analysis answers “what happened” by summarizing past data, usually in the form of dashboards.
+Example: Displaying the Trade data yearly and monthly wise.
+
+	HYPOTHESIS STATEMENT: The exports and the imports gradually increases between the India and ASEAN countries.
+
+	DATA COLLECTION
+•	Source- https://tradestat.commerce.gov.in/eidb/default.asp
+•	Data pre-processing methods- Data size (64 bytes), removal of null values and duplicated rows, extraction of unique values.
+			
+4.2.	NON-FUNCTIONAL REQUIREMENTS 
+
+	PERFORMANCE
+High speed for data visualization as it uses Plotly for interactive plotting of graphs.
+	USABILITY
+Using Jupyter Notebook (version 6.2.0) and Plotly (version 4.14.3) graphs   are plotted on a static HTML dashboard.
+	RELIABILITY
+The data is reliable as it is taken from an authorized source.
+		         
+
+
+
+
+
+5.	 SYSTEM DESIGN
+
+5.1.	FLOW CHART
+
+Once the Dataset is converted into the csv file, the inputs of region-wise import/export is taken to perform visualization followed by t-test, which will result as either “Failed to Reject” or “Reject null Hypothesis”. After this test the graphical representation is shown.
+
+	          
+
+Fig 5.1 Flow Chart for ITDA 
+
+	                   
+ 
+
+6.	 DETAILED DESIGN
+
+6.1.	METHODOLOGY
+
+	RESEARCH DESIGN: The project is descriptive in nature as it provides the description of the current state of the country’s foreign trade in the period of 2014 and 2020.
+
+	COLLECTION OF DATA: The project is based exclusively on static secondary data collected at trade import/export site of the government, the reports and related sources.
+
+	STATISTICAL TECHNIQUES: Various statistical tools and techniques like, average, standard deviation and graphical representation to analyse the data gathered will be used.
+
+
+6.2.	HYPOTHESIS TESTING 
+
+NULL HYPOTHESIS STATEMENT (Ho): The exports and the imports gradually increases between the India and ASEAN (Association of South East Asian Nations) countries.
+
+The null hypothesis cannot be rejected in this project and the alternative hypothesis can therefore be rejected. The alternative to this hypothesis is therefore as shown below: 
+
+ALTERNATIVE HYPOTHESIS STATEMENT (H1): Between India and ASEAN countries exports and imports are gradually decreasing.
+
+	
+ 
+            
+	 T-TEST 
+
+ 
+Fig. 6.1 T-test for Exports
+Sample mean is found to be 26.61 and population mean of the growth of the exports region wise is between 17.78 and 35.43.
+T-TEST RESULT STATEMENT: At 90% confidence there is no enough evidence to reject the null hypothesis. 
+
+ 
+Fig. 6.2 T-test for Imports
+
+Sample mean is found to be 37.74 and population mean of the growth of the exports region wise is between 24.06 and 51.43.
+T-TEST RESULT STATEMENT: At 90% confidence there is no enough evidence to reject the null hypothesis. 
+
+
+
+
+
+
+7.	 IMPLEMENTATION
+
+7.1.	SAMPLE SOURCE CODE
+ 
+ 
+
+
+7.2.	SCREEN SHOTS		
+			          
+
+ 
+Fig: 7.1 Year wise Import/Export/Trade Deficit 
+
+Import is always more than the export creating a trade deficit which can be seen in red bar graph.
+In 2018-2020 showing a huge trade deficit and after which it gradually decreases and remains constant.
+The “Value” is represented in million US dollars.
+ 
+
+ 
+Fig: 7.2 Country wise Import  
+
+Malaysia is India's biggest importer followed by Thailand and Singapore. The “Value” is represented in million US dollars.
+
+ 
+
+Fig:  7.3 Country wise Export
+
+Singapore has biggest market in India followed by Vietnam, Indonesia and Malaysia. The “Value” is represented in million US dollars.
+
+
+
+ 
+Fig: 7.4 Date wise Import/Export 1
+
+In 2017 there was rapid increase in the number of imports whereas there was gradual increase in export followed by sharp decline in 2018. The “Value” is represented in million US dollars.
+
+ 
+Fig:  7.5 Expensive Imports HS Codes Share
+
+The two’s share digit HS Code category 27,85,15,84 in expensive Category has most valuable imports.
+
+
+
+ 
+Fig: 7.6 Expensive Imports Country wise Share
+
+Country Wise for Expensive Items Malaysia has the most share followed by Indonesia and Singapore.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+8.	 SOFTWARE TESTING
+
+8.1.	MANUAL TEST CASES
+Nowadays, software research is necessary to identify the mistakes, errors and defects made during the software testing stages. The software industries have always prioritized the delivery of the optimum quality software product. However, developers cannot guarantee these aspects without assessment of software components in anticipated and unexpected conditions. Therefore, all large and small software components are tested. Therefore, the testing was done manually, where several test cases have been created, and the software has also been tested. Not if the expected outcomes have been achieved is marked as Pass or Fail.
+ 
+Fig: 8.1 Manual Testing
+
+	The application is tested under eleven different test cases. The step details has been listed along with the results that are expected from those corresponding cases. After the testing is performed, the Actual Results obtained under those specific cases are listed. Further, results are analysed to check whether the Actual Results are matching with the Expected Results.
+	In the above figure, the project under the testing phase, behaves in a similar manner which is expected, and therefore, the Pass is marked for all test cases. Therefore, the project passed all the test cases successfully.
+
+
+
+ 
+
+9.	 CONCLUSION
+
+The trade dataset is scraped from the Department of Commerce, Govt. of India website. The data used for Analysis is monthly. Monthly data is available from January, 2014 to December, 2020. The total trade amount (Import/Export) for each month is expressed in million US dollars. For analysis the data is broken down into HS code wise and Country wise data and visualization is shown on the dashboard. The trade deficit needs to be reduced. Bilateral ties between countries helps to reduce export duty which will help the local company compete in global market.
+ 
+
+10.	FUTURE ENHANCEMENTS
+
+	The application focuses in the future will be to do an in-depth study for Indian Trade Data Analysis by doing forecasting worldwide by using different Machine Learning algorithms.
+	Furthermore the results will be predicted in a more efficient way by using various forecasting models.
+	Getting more points for better forecasting.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+APPENDIX A: BIBLIOGRAPHY
+
+•	HS Code: Harmonized System of Code
+•	FTA: Free Trade Agreement
+•	ASEAN: Association Of South East Asian Nations
+
+[1]https://rb.gy/pyxabz
+[2]https://orfonline.org/wp-content/uploads/2018/01/ORF_Issue_Brief
+_221_India_ASEAN.pdf
+[3]https://www.researchgate.net/publication/328138229_Analysis_of_Trade_Pattern_between_India_and_ASEAN
+[4]https://tradestat.commerce.gov.in/eidb/default.asp
+[5]https://www.india-briefing.com/news/india-asean-trade-and-investment-prospects-21779.html/
+[6]https://www.assocham.org/upload/docs/ASEAN-STUDY.pdf
+[7]https://www.researchgate.net/publication/273598112_Estimating_the_Impact_of_the_India-ASEAN_Free_Trade_Agreement_on_Indian_
+Industries
+[8]https://www.indexmundi.com/g/g.aspx?v=85&c=in&l=en
+[9]https://www.indiaspend.com/indian-exports-drop-over-modi-period-trade-deficit-highest-since-2012-13-81605/
+[10]https://www.statista.com/statistics/650785/import-value-asean-countries-from-india/
+
+
+
+		   			
+
+
